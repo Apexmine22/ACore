@@ -1,0 +1,226 @@
+# Сообщения
+Messages:
+  reload_configurations: '{#b5b5b5} Конфигурация плагина успешно перезагружена!'
+  player_on_command: '{#b5b5b5} Комманда доступна только игрокам'
+  player_null_unban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}не имеет бана!'
+  player_null_unmute: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}не имеет мута!'
+  no_permission: '{#b5b5b5} Недостаточно прав!'
+  time_format_unknown: '{#b5b5b5} Неправильный формат времени. Правильный - {#edde0c}1s 1m 1h'
+  player_is_offline: '{#b5b5b5} Игрок {#edde0c}{target}{#b5b5b5} не в сети!'
+  sender_is_target_ban: '{#b5b5b5} Нельзя самого себя банить!'
+  sender_is_target_kick: '{#b5b5b5} Нельзя самого себя кикать!'
+  max_time_tempmute: '{#b5b5b5} Вы превысили лимит времени мута. Стандартный лимит: {#edde0c}{time}'
+  youTube_broadcast_command_message: '{#b5b5b5} {player}: {msg}'
+  youtube_usage: "{new}{#edde0c} /youtube bc {#b5b5b5}[{#edde0c}текст{#b5b5b5}]{new}&7"
+
+  usage_ban_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/ban {#b5b5b5}[{#edde0c}ник{#b5b5b5}] [{#edde0c}правило{#b5b5b5}] [{#edde0c}пояснение{#b5b5b5}]
+    {#b5b5b5} Список правил - {#edde0c}/rules
+    {new}&7
+  usage_tempban_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/tempban {#b5b5b5}[{#edde0c}ник{#b5b5b5}] [{#edde0c}время{#b5b5b5}] [{#edde0c}правило{#b5b5b5}] [{#edde0c}пояснение{#b5b5b5}]
+    {#b5b5b5} Список правил - {#edde0c}/rules
+    {new}&7
+
+  usage_kick_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/kick {#b5b5b5}[{#edde0c}ник{#b5b5b5}] [{#edde0c}правило{#b5b5b5}] [{#edde0c}пояснение{#b5b5b5}]
+    {#b5b5b5} Список правил - {#edde0c}/rules
+    {new}&7
+  usage_unmute_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/unmute {#b5b5b5}[{#edde0c}ник{#b5b5b5}]
+    {new} &7
+  
+
+  usage_unban_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/unban {#b5b5b5}[{#edde0c}ник{#b5b5b5}]
+    {new}&7
+
+  usage_mute_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/mute {#b5b5b5}[{#edde0c}ник{#b5b5b5}] [{#edde0c}правило{#b5b5b5}] [{#edde0c}пояснение{#b5b5b5}]
+    {#b5b5b5} Список правил - {#edde0c}/rules
+    {new}&7
+  usage_tempmute_command: |-
+    {new}
+    {#b5b5b5} Использование - {#edde0c}/tempmute {#b5b5b5}[{#edde0c}ник{#b5b5b5}] [{#edde0c}время{#b5b5b5}] [{#edde0c}правило{#b5b5b5}] [{#edde0c}пояснение{#b5b5b5}]
+    {#b5b5b5} Список правил - {#edde0c}/rules
+    {new}&7
+
+  cooldown_tempmute_command: '{#b5b5b5} До следующего мута ждите: {#edde0c}{time}'
+  command_blocked_mute: '{#b5b5b5} У вас мут! Для вас данная команда заблокирована!'
+  unmuted_broadcast_me: '{#edde0c} {admin} {#b5b5b5}снял с себя мут!'
+  unmuted_broadcast: '{#edde0c} {admin} {#b5b5b5}снял мут с {#edde0c}{target}'
+  banned_broadcast: '{#edde0c} {admin} {#b5b5b5}забанил навсегда {#edde0c}{target}'
+  kicked_broadcast: '{#edde0c} {admin} {#b5b5b5}кикнул {#edde0c}{target}'
+  muted_broadcast: '{#edde0c} {admin} {#b5b5b5}замутил навсегда {#edde0c}{target}'
+  player_is_muted: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}уже в муте!'
+  sender_is_target_mute: '{#b5b5b5} Нельзя самого себя мутить!'
+  tempmuted_broadcast: '{#edde0c} {admin} {#b5b5b5}временно выдал мут {#edde0c}{target}'
+  tempbanned_broadcast: '{#edde0c} {admin} {#b5b5b5}временно забанил {#edde0c}{target}'
+  unbanned_broadcast: '{#edde0c} {admin} {#b5b5b5}снял бан с {#edde0c}{target}'
+  higher_group_tempmute: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}имеет выше донат чем у вас, поэтому нельзя его замутить!'
+  unbanned_broadcast_me: '{#edde0c}{admin} {#b5b5b5}снял с себя бан'
+  player_null_ban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}не забанен!'
+  kicked_broadcast: '{#edde0c} {admin} {#b5b5b5}кикнул {#edde0c}{target}'
+  rules_is_null: '{#b5b5b5} Пункт {#edde0c}{rules} {#b5b5b5}не найден. Перепроверьте правила - {#edde0c}/rules'
+  corresponds_not_paragraph: '{#b5b5b5} Нельзя применить данное наказание по этому пункту правил.'
+  cooldown_ban_command: '{#b5b5b5} До следующего бана ждите: {#edde0c}{time}'
+  cooldown_kill_command: '{#b5b5b5} До следующего кила ждите: {#edde0c}{time}'
+  cooldown_mute_command: '{#b5b5b5} До следующего мута ждите: {#edde0c}{time}'
+  cooldown_tempban_command: '{#b5b5b5} До следующего бана ждите: {#edde0c}{time}'
+  cooldown_kick_command: '{#b5b5b5} До следующего кика ждите: {#edde0c}{time}'
+  cooldown_baninfo_command: '{#b5b5b5} До следующей информации ждите: {#edde0c}{time}'
+  cooldown_unban_command: '{#b5b5b5} До следующего разбана ждите: {#edde0c}{time}'
+  cooldown_unmute_command: '{#b5b5b5} До следующего размута ждите: {#edde0c}{time}'
+  player_is_banned: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}уже забанен!'
+  player_null_mute: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}не в муте!'
+  player_null_ban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}не в бане!'
+  comment_little: '{#b5b5b5} Более подробней напишите комментарий!'
+  successfully_unmute_me: '{#b5b5b5} Вы успешно сняли с себя мут!'
+
+  successfully_kill: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}был убит!'
+  successfully_unmute: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}разблокирован!'
+  successfully_ban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}заблокирован!'
+  successfully_mute: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}замучен!'
+  successfully_unban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}разблокирован!'
+  successfully_unban_me: '{#b5b5b5} Вы успешно сняли с себя бан!'
+  successfully_kick: '{#b5b5b5}Игрок {#edde0c}{target} {#b5b5b5}кикнут!'
+  protect_admin: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}имеет защиту!'
+  higher_group_kick: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}имеет выше донат чем у вас, поэтому нельзя его кикнуть!'
+  higher_group_tempban: '{#b5b5b5} Игрок {#edde0c}{target} {#b5b5b5}имеет выше донат чем у вас, поэтому нельзя его забанить!'
+  players_size_null: '{#b5b5b5} Нет игроков на серверве, чтоб банить кого либо через консоль!'
+  page_null_number: '{#b5b5b5} Вы ввели не число, а номер страницы должен быть цифрой.'
+  null_page: '{#b5b5b5} Данной страницы не существует!'
+
+  player_null_mute: '{#b5b5b5} Не имеет мута!'
+
+  player_null_ban: '{#b5b5b5} Не имеет бана!'
+
+  list_format: |-
+    {new}
+     {#b5b5b5}Список правил: {#edde0c}({page}/{pages})
+    {new} &7
+    {#b5b5b5}{list}
+    {new} &7
+     {#b5b5b5}Посмотреть следующую страницу - {#edde0c}/rules [страница]
+    {new} &7
+  line_list_format: '{number-rules} {rules} ({values})'
+  max_time_tempban: '{#b5b5b5} Вы превысили лимит времени бана. Стандартный лимит: {#edde0c}{time}'
+
+  usage_baninfo_command: |-
+    {new} &7
+    {#b5b5b5} Использование - {#edde0c}/baninfo {#b5b5b5}[{#edde0c}ник{#b5b5b5}]
+    {new} &7
+
+  info_format_player: |-
+    {new} &7
+      {#b5b5b5}Информация об игроке {#edde0c}{target}:
+    {new} &7
+    {#b5b5b5}{list}
+    {new} &7
+
+  ban_format_info: |-
+    {new} &7
+    {#b5b5b5} Забанил: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  mute_format_info: |-
+    {new} &7
+    {#b5b5b5} Замутил: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  tempban_format_info: |-
+    {new} &7
+    {#b5b5b5} Забанил: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Время: {#edde0c}{time}
+    {#b5b5b5} Комментарий забаневшего: {#edde0c}{comment}
+    {new} &7
+
+  tempmute_format_info: |-
+    {new} &7
+    {#b5b5b5} Замутил: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Время: {#edde0c}{time}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+# Текст, который будет показываться при успешном бане/муте
+Info-messages:
+  kick_text: |-
+    {new} &7
+    {#b5b5b5} Печалька! Вас кикнули с этого сервера!
+    {#b5b5b5} Администратор: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  mute_text: |-
+    {new} &7
+    {#b5b5b5} Вам выдали мут навсегда!
+    {#b5b5b5} Администратор: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  tempmute_text: |-
+    {new} &7
+    {#b5b5b5} Вам выдали временно мут!
+    {#b5b5b5} Администратор: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Время: {#edde0c}{time}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  tempban_text: |-
+    {new} &7
+    {#b5b5b5} Печалька! Вас временно забанили на сервере!
+    {#b5b5b5} Администратор: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Время: {#edde0c}{time}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+  ban_text: |-
+    {new} &7
+    {#b5b5b5} Печалька! Вас навсегда забанили на сервере!
+    {#b5b5b5} Администратор: {#edde0c}{admin}
+    {#b5b5b5} Причина: {#edde0c}{number-rules} {rules}
+    {#b5b5b5} Комментарий: {#edde0c}{comment}
+    {new} &7
+
+
+# Не работает возможно добавлю в обнове
+
+
+# # Сообщения, которые будут показываться при наводке
+# Hover-messages:
+#   kill_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}
+#   ban_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}
+#   tempban_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}
+#     Время бана: {time}
+#   mute_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}
+#   tempmute_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}
+#     Время мута: {time}
+#   kick_text: |-
+#     Причина: {number-rules} {rules}
+#     Комментарий: {comment}

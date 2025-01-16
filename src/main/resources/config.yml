@@ -1,0 +1,83 @@
+# Права:
+#
+#  abansystem.ban - забанить навсегда
+#  abansystem.tempban - временно забанить
+#  abansystem.mute - замутить навсегда
+#  abansystem.tempmute - временно замутить
+#  abansystem.bypass - обходить задержку, максимальное время бана
+#  abansystem.unban - снять бан
+#  abansystem.unmute - снять мут
+#  abansystem.protect - защита на временный бан/мут
+#  abansystem.kick - кикнуть игрока
+#  abansystem.youtube - Система ютубера
+#
+
+# Настройки
+Settings:
+  # Модуль, который будет рассылать кликабельный текст по всем
+  # серверам BungeeCord. Включать если имеется модуль!
+  bungee_module_enable: false
+  # Модули True/False если вам не нужен какой-то модуль вы можете его просто отключить
+  module_ban: True
+  module_kick: True
+  module_mute: True
+  module_youtube: True
+
+# Админы, которые имеют доступ к командам админа и обходам на макс. время наказания"
+admins_list:
+  - 'Fr05t_ByTE'
+
+# База данных. Сейчас используется только MySQL
+MySQL:
+  host: 'localhost'
+  database: ''
+  username: ''
+  password: ''
+  port: '3306'
+
+# Максимальное время бана для групп.
+# Доступные временна: 1s - 1 секунда; 1m - 1 минута; 1h - 1 часа; 1d - 1 день; 1y - 1 год.
+max_tempban_time:
+  admin: '1h'
+  moder: '4h'
+
+# Максимальное время мута для групп.
+# Доступные временна: 1s - 1 секунда; 1m - 1 минута; 1h - 1 часа; 1d - 1 день; 1y - 1 год.
+max_tempmute_time:
+  admin: '1h'
+  moder: '4h'
+
+# Приоритеты для групп, действуют только на команды: /tempban, /tempmute, /kick
+groups-priority:
+  default: 0
+  admin: 1
+
+# Команды, которые будут заблокированы при муте.
+blocked_commands_mute:
+  - '/msg'
+  - '/r'
+  - '/broadcast'
+  - '/bc'
+  - '/reply'
+  - '/m'
+  - '/pm'
+
+# Задержки для групп
+# Чтобы убрать задержку с команды, уберите ее ниже.
+# Доступные временна: 1s - 1 секунда; 1m - 1 минута; 1h - 1 часа; 1d - 1 день; 1y - 1 год.
+Cooldown-Manager:
+  mute:
+    admin: '1h'
+    moder: '4h'
+  ban:
+    admin: '1h'
+    moder: '4h'
+  tempban:
+    admin: '1h'
+    moder: '4h'
+  tempmute:
+    admin: '1h'
+    moder: '4h'
+  unban:
+    admin: '1h'
+    moder: '4h'

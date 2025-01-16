@@ -1,0 +1,27 @@
+name: ACore
+main: frost.main.ACore
+version: 0.3
+author: Fr05t_ByTE
+commands:
+  ban:
+    default: op
+  kick:
+    default: op
+  rules:
+    default: True
+  unban:
+    default: op
+  tempban:
+    default: op
+  mute:
+    default: op
+  baninfo:
+    default: op
+  tempmute:
+    default: op
+  unmute:
+    default: op
+  reload:
+    default: op
+  youtube:
+    default: op
