@@ -1,61 +1,66 @@
-# ACore | Minecraft verssion 1.20 | SystemBans | SystemYouTube
+# ApexCore | Minecraft verssion 1.20 | 
 
 ## Russian
 
 ### Разработчик русский по этому плагин полностью на русском языке
 ### Плагин поддержует только базу данных MySQL
 
-- Команды и права к ним:
-  
-  - /ban - Забанить игрока на всегда | abansystem.ban
-  - /mute - Замутить игрока навсегда | abansystem.mute
-  - /tempban - Забанить игрока на время | abansystem.tempban
-  - /tempmute - Замутить игрока на время | abansystem.mute 
-  - /kick - Кикнуть игрока с сервера | abansystem.kick
-  - /unban - Разбанить игрока если он в бане | abansystem.unban
-  - /unmute - Размутить игрока если он в муте | abansystem.unmute
-  - /youtube bc - Сделать обявление на сервер | abansystem.youtube
-    
-- Права без комманд:
-  
-  - abansystem.protect - Защита на бан мут
-  - abansystem.bypass - Обход задержки
-  - В файлике config.yml есть настройка admins_list если туда вписать ник то игрока не смогут забанить и у него будут все команды без задержек
-    
-- Есть система задержек на бан, кик, мут
-- Есть система приорететов между группами
-- Можно ограничить время бана, кика, мута для каждой группы
-- Есть поддержка HexColor
-- Есть поддержка правил файлик rules.yml
-- Полная кастомизация всех сообщений
-- Так же можно отключить модули которые вам не нужны
+#### Команды и права к ним:
+
+    - /ban - Забанить игрока на всегда | apexcore.ban
+    - /mute - Замутить игрока навсегда | apexcore.mute
+    - /tempban - Забанить игрока на время | apexcore.tempban
+    - /tempmute - Замутить игрока на время | apexcore.mute
+    - /kick - Кикнуть игрока с сервера | apexcore.kick
+    - /unban - Разбанить игрока если он в бане | apexcore.unban
+    - /unmute - Размутить игрока если он в муте | apexcore.unmute
+    - /acore check - Вызвать игрока на проверку | apexcore.command.check
+    - /acore spec - Следить за играком | apexcore.command.spec
+    - /acore reload - Перезагрузить плагин | apexcore.command.reload
+
+#### Права без комманд:
+
+    - apexcore.protect - Защита на бан мут
+    - apexcore.bypass - Обход задержки
+    - В файлике config.yml есть настройка admins_list если туда вписать ник то игрока не смогут забанить и у него будут все команды без задержек
+#### Функции:
+    - Есть система задержек на бан, кик, мут
+    - Есть система приорететов между группами
+    - Можно ограничить время бана, кика, мута для каждой группы
+    - Есть поддержка HexColor
+    - Есть поддержка правил файлик rules.yml
+    - Полная кастомизация всех сообщений
+    - Так же можно отключить модули которые вам не нужны
 
 ## English
-### Developer the plugin is fully in Russian.
 
-### The plugin supports only the MySQL database.
+### Developer Note: This plugin is entirely in Russian
+### The plugin only supports the MySQL database
 
-- Commands and permissions:
+#### Commands and Permissions:
 
-  - /ban - Ban a player permanently | abansystem.ban
-  - /mute - Mute a player forever | abansystem.mute
-  - /tempban - Temporarily ban a player | abansystem.tempban
-  - /tempmute - Temporarily mute a player | abansystem.tempmute
-  - /kick - Kick a player from the server | abansystem.kick
-  - /unban - Unban a banned player | abansystem.unban
-  - /unmute - Unmute a muted player | abansystem.unmute
-  - /youtube bc - Make an announcement on the server | abansystem.youtube
+    - /ban - Permanently ban a player | Permission: apexcore.ban
+    - /mute - Mute a player forever | Permission: apexcore.mute
+    - /tempban - Temporarily ban a player for a set time | Permission: apexcore.tempban
+    - /tempmute - Temporarily mute a player for a set time | Permission: apexcore.mute
+    - /kick - Kick a player from the server | Permission: apexcore.kick
+    - /unban - Unban a banned player | Permission: apexcore.unban
+    - /unmute - Unmute a muted player | Permission: apexcore.unmute
+    - /acore check - Initiate a player check | Permission: apexcore.command.check
+    - /acore spec - Spectate a player | Permission: apexcore.command.spec
+    - /acore reload - Reload the plugin | Permission: apexcore.command.reload
 
-- Permissions without commands:
+#### Permissions without commands:
 
-  - abansystem.protect - Protection against bans and mutes
-  - abansystem.bypass - Bypass delay
-  - In the config.yml file, there is an admins_list setting; if you add a nickname to it, that player cannot be banned, and they will have all commands without delays.
+    - apexcore.protect - Protection against bans and mutes
+    - apexcore.bypass - Bypass delay restrictions
+    - In the config.yml file, there is an admins_list setting where you can add nicknames of players who cannot be banned and will have all commands available to them without delays.
 
-- There is a system of delays for banning, kicking, and muting.
-- There is a priority system between groups.
-- You can limit the duration of bans, kicks, and mutes for each group.
-- It has support for HexColor.
-- It has support for rules (rules.yml file).
-- Full customization of all messages.
-- You can also disable modules that are not needed.
+#### Features:
+
+    - Delay system for ban, kick, and mute actions
+    - Priority system between groups
+    - Ability to limit the duration of bans, kicks, and mutes for each group
+    - Support for HexColor
+    - Rules support via the rules.yml file
+    - Full customization of all messages
